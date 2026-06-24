@@ -1,0 +1,86 @@
+NEURAL STYLE TRANSFER USING DEEP LEARNING
+
+Abstract
+
+This project implements Neural Style Transfer (NST), a deep learning technique that combines the content of one image with the artistic style of another image. Using Convolutional Neural Networks (CNNs), the system generates visually appealing images that preserve the original content while adopting the style characteristics of a reference artwork.
+
+Introduction
+
+Neural Style Transfer is a popular application of Deep Learning and Computer Vision. It uses pre-trained convolutional neural networks to extract content and style features from images and blend them into a new image. This technique has revolutionized digital art creation and image editing.
+
+Objectives
+
+- Apply artistic styles to images.
+- Understand feature extraction using CNNs.
+- Explore deep learning applications in image processing.
+- Generate visually appealing stylized images.
+
+Technologies Used
+
+- Python
+- PyTorch
+- Torchvision
+- Convolutional Neural Networks (CNNs)
+- Matplotlib
+
+Methodology
+
+1. Content Image Selection
+
+An image is selected whose structure and objects will be preserved.
+
+2. Style Image Selection
+
+An artwork or style image is selected to provide artistic patterns and textures.
+
+3. Feature Extraction
+
+A pre-trained CNN extracts content and style features from both images.
+
+4. Optimization
+
+The output image is optimized to minimize content loss and style loss simultaneously.
+
+5. Stylized Image Generation
+
+The final image combines the content of the original image with the style of the reference artwork.
+
+Features
+
+- Artistic image generation
+- Style transfer using CNNs
+- High-quality stylized outputs
+- Visualization of intermediate and final results
+
+Applications
+
+- Digital Art Creation
+- Photo Editing
+- Graphic Design
+- Social Media Content
+- Creative AI Applications
+
+Advantages
+
+- Produces unique artistic images
+- Preserves image content
+- Utilizes powerful pre-trained networks
+- Easy integration with image processing workflows
+
+Future Enhancements
+
+- Real-time style transfer
+- Multiple style blending
+- Mobile application deployment
+- High-resolution image generation
+
+Conclusion
+
+The Neural Style Transfer project demonstrates how deep learning can merge artistic creativity with image processing. By combining content and style representations, the system produces visually impressive images that showcase the power of AI in digital art.
+
+References
+
+1. Gatys et al. - A Neural Algorithm of Artistic Style
+2. PyTorch Documentation
+3. Torchvision Documentation
+4. Deep Learning Research Papers
